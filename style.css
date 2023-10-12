@@ -1,0 +1,26 @@
+.tanpa-bootstrap {
+    background-color: blueviolet;
+    font-size: 5em;
+    font-family: monospace;
+    border: none;
+    padding: 10px;
+    color: rgb(8, 39, 67);
+    cursor: pointer;
+}
+
+.tanpa-bootstrap:hover {
+    background-color: black;
+    color: aliceblue;
+    transform: rotateX('angle');
+    transition: all .5s;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    position: unset;
+}
